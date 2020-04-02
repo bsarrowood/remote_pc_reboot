@@ -1,6 +1,6 @@
 TITLE Reboot a Remote Computer
 @ECHO Off
-REM created by Brad Arrowood
+REM created by reurbo
 :start
 set pcname=
 cls
@@ -9,6 +9,3 @@ shutdown /r /m \\%pcname% /t 0
 echo Remote reboot signal sent to %pcname%
 PAUSE
 goto start
-
-REM remote logout command?
-REM shutdown /l /m \\%pcname% /t 0 /f
