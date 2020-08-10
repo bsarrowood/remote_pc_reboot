@@ -1,6 +1,6 @@
 TITLE Reboot a Remote Computer
 @ECHO Off
-REM created by reurbo
+REM created by Brad Arrowood
 :start
 set pcname=
 cls
